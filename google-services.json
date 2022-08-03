@@ -1,0 +1,126 @@
+{
+  "project_info": {
+    "project_number": "19360102638",
+    "project_id": "push-notifications-495b6",
+    "storage_bucket": "push-notifications-495b6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:19360102638:android:2cd1da5bdfe8711c031bff",
+        "android_client_info": {
+          "package_name": "com.firebasepro.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "19360102638-0aas1dtdg739a6tha8hbgvovt9fqdkki.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAH1JJiQAKmt_3loBiIpNkTjs8dvIZBa2A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "19360102638-0aas1dtdg739a6tha8hbgvovt9fqdkki.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:19360102638:android:2687a79775aa9bf1031bff",
+        "android_client_info": {
+          "package_name": "com.firebasesex.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "19360102638-0aas1dtdg739a6tha8hbgvovt9fqdkki.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAH1JJiQAKmt_3loBiIpNkTjs8dvIZBa2A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "19360102638-0aas1dtdg739a6tha8hbgvovt9fqdkki.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:19360102638:android:6d7e19a5393d9c78031bff",
+        "android_client_info": {
+          "package_name": "com.firecloud.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "19360102638-0aas1dtdg739a6tha8hbgvovt9fqdkki.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAH1JJiQAKmt_3loBiIpNkTjs8dvIZBa2A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "19360102638-0aas1dtdg739a6tha8hbgvovt9fqdkki.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:19360102638:android:34cc85873f0ad436031bff",
+        "android_client_info": {
+          "package_name": "com.fireplus.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "19360102638-0aas1dtdg739a6tha8hbgvovt9fqdkki.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAH1JJiQAKmt_3loBiIpNkTjs8dvIZBa2A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "19360102638-0aas1dtdg739a6tha8hbgvovt9fqdkki.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,15 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Run Android on device",
+            "type": "cordova",
+            "request": "launch",
+            "platform": "android",
+            "target": "19f8f8",
+            "port": 9222,
+            "sourceMaps": true,
+            "cwd": "${workspaceFolder}"
+        }
+    ]
+}
