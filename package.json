@@ -14,10 +14,34 @@
   "license": "Apache-2.0",
   "cordova": {
     "platforms": [
-      "android",
-      "browser"
+      "android"
     ],
     "plugins": {
+      "cordova-plugin-camera": {
+        "ANDROIDX_CORE_VERSION": "1.6.+"
+      },
+      "cordova-plugin-geolocation": {
+        "GPS_REQUIRED": "true"
+      },
+      "cordova-plugin-statusbar": {},
+      "cordova-plugin-customurlscheme": {
+        "URL_SCHEME": "mycoolapp",
+        "ANDROID_SCHEME": " ",
+        "ANDROID_HOST": " ",
+        "ANDROID_PATHPREFIX": "/"
+      },
+      "cordova-plugin-facebook-connect": {
+        "APP_ID": "123456789",
+        "APP_NAME": "firebasesex",
+        "FACEBOOK_URL_SCHEME_SUFFIX": " ",
+        "OTHER_APP_SCHEMES": " ",
+        "FACEBOOK_AUTO_LOG_APP_EVENTS": "true",
+        "FACEBOOK_HYBRID_APP_EVENTS": "false",
+        "FACEBOOK_ADVERTISER_ID_COLLECTION": "true",
+        "FACEBOOK_ANDROID_SDK_VERSION": "11.3.0",
+        "FACEBOOK_IOS_SDK_VERSION": "11.1.0",
+        "FACEBOOK_BROWSER_SDK_VERSION": "v11.0"
+      },
       "cordova-plugin-firebasex": {
         "FIREBASE_ANALYTICS_COLLECTION_ENABLED": "true",
         "FIREBASE_PERFORMANCE_COLLECTION_ENABLED": "true",
@@ -42,12 +66,20 @@
         "ANDROID_GSON_VERSION": "2.9.0",
         "ANDROID_FIREBASE_PERF_GRADLE_PLUGIN_VERSION": "1.4.1",
         "ANDROID_GRPC_OKHTTP": "1.46.0"
-      }
+      },
+      "cordova-plugin-enable-multidex": {}
     }
   },
   "devDependencies": {
     "cordova-android": "^10.1.2",
-    "cordova-browser": "^6.0.0",
-    "cordova-plugin-firebasex": "^14.2.1"
+    "cordova-plugin-camera": "^6.0.0",
+    "cordova-plugin-customurlscheme": "^5.0.2",
+    "cordova-plugin-enable-multidex": "^0.2.0",
+    "cordova-plugin-firebasex": "^14.2.1",
+    "cordova-plugin-geolocation": "^4.1.0",
+    "cordova-plugin-statusbar": "^3.0.0"
+  },
+  "dependencies": {
+    "cordova-plugin-facebook-connect": "3.2.0"
   }
 }

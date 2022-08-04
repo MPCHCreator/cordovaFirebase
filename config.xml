@@ -11,6 +11,7 @@
     <allow-intent href="http://*/*" />
     <allow-intent href="https://*/*" />
     <platform name="android">
+        <preference name="android-minSdkVersion" value="19" />
         <plugin name="cordova-plugin-firebasex">
             <variable name="ANDROID_FIREBASE_CONFIG_FILEPATH" value="resources/android/google-services.json" />
         </plugin>

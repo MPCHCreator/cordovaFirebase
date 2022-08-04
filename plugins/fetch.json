@@ -1,8 +1,61 @@
 {
+  "cordova-plugin-camera": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-camera@6.0.0"
+    },
+    "is_top_level": true,
+    "variables": {}
+  },
+  "cordova-plugin-customurlscheme": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-customurlscheme@^5.0.2"
+    },
+    "is_top_level": true,
+    "variables": {
+      "URL_SCHEME": "mycoolapp"
+    }
+  },
+  "cordova-plugin-geolocation": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-geolocation@4.1.0"
+    },
+    "is_top_level": true,
+    "variables": {}
+  },
+  "cordova-plugin-statusbar": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-statusbar@3.0.0"
+    },
+    "is_top_level": true,
+    "variables": {}
+  },
+  "cordova-plugin-facebook-connect": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-facebook-connect"
+    },
+    "is_top_level": true,
+    "variables": {
+      "APP_ID": "123456789",
+      "APP_NAME": "firebasesex"
+    }
+  },
   "cordova-plugin-firebasex": {
     "source": {
       "type": "registry",
       "id": "cordova-plugin-firebasex"
+    },
+    "is_top_level": true,
+    "variables": {}
+  },
+  "cordova-plugin-enable-multidex": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-enable-multidex"
     },
     "is_top_level": true,
     "variables": {}

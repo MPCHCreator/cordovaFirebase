@@ -26,6 +26,7 @@ function onDeviceReady() {
     var count = 1;
     console.log('Running cordova-' + cordova.platformId + '@' + cordova.version);
     document.getElementById('deviceready').classList.add('ready');
+
     FirebasePlugin.getToken(function (fcmToken) {
         console.log(fcmToken);
     }, function (error) {
@@ -50,6 +51,7 @@ function onDeviceReady() {
         li.appendChild(document.createTextNode("Intento " + count));
         ul.appendChild(li);
         count += 1; 
+        
     }, function(error) {
         console.error(error);
     });
