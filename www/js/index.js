@@ -41,6 +41,10 @@ function onDeviceReady() {
             }
         }
         console.dir(message);
+        if (count == 3) {
+            count = 10
+            document.getElementById('list').innerHTML = '';
+        }
         var ul = document.getElementById("list");
         var li = document.createElement("li");
         li.appendChild(document.createTextNode("Intento " + count));
