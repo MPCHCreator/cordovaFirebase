@@ -1,1 +1,1 @@
-{"plugins":["cordova-plugin-firebasex","cordova-plugin-camera","cordova-plugin-customurlscheme","cordova-plugin-geolocation","cordova-plugin-statusbar","cordova-plugin-facebook-connect","cordova-plugin-enable-multidex"]}
+{"plugins":["cordova-plugin-camera","cordova-plugin-customurlscheme","cordova-plugin-geolocation","cordova-plugin-statusbar","cordova-plugin-facebook-connect","cordova-plugin-firebasex","cordova-plugin-enable-multidex"]}
